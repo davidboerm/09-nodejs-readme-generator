@@ -29,7 +29,7 @@ function renderLicenseBadge(answers) {
   for (let i = 0; i < licenseBadges.length; i++) {
     if (answers === licenseBadges[i].name) {
       return licenseBadges[i].badge;
-    } 
+    }
   }
 }
 
@@ -49,9 +49,9 @@ ${renderLicenseBadge(answers.license)}
 // Function to generate markdown for README
 function generateMarkdown(answers) {
   return `# ${answers.title}
-  
+
 ${renderLicenseBadge(answers.license)}
-  
+
 ## Description
   ${answers.description}
 ## Table of Contents
@@ -72,9 +72,9 @@ ${renderLicenseSection(answers)}
   ${answers.test}
 ## Questions
   Any Questions? Please contact me at one of the following for more information:
-    
-  [Github](https://github.com/${answers.github})/n
-  [LinkedIn](${answers.linkedin})/n
+
+  [Github](https://github.com/${answers.github})  
+  [LinkedIn](${answers.linkedin})  
   [${answers.email}](mailto:${answers.email})
 `;
 }
