@@ -18,6 +18,8 @@
   Clone repo, run 'node index.js' in terminal
 ## Demo
 ![README generator demo gif](./images/readme-gen-demo.gif)
+[link to demo](./images/readme-gen-demo.gif)
+
 ## Contributing
   Ask for permission.
 
