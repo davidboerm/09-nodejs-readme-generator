@@ -73,8 +73,8 @@ ${renderLicenseSection(answers)}
 ## Questions
   Any Questions? Please contact me at one of the following for more information:
     
-  [Github](https://github.com/${answers.github})
-  [LinkedIn](${answers.linkedin})
+  [Github](https://github.com/${answers.github})/n
+  [LinkedIn](${answers.linkedin})/n
   [${answers.email}](mailto:${answers.email})
 `;
 }
